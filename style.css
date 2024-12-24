@@ -1,0 +1,39 @@
+body{
+    font-family: Arial,sans-serif;
+    background-color:rgb(214, 217, 220)
+}
+#container{
+    text-align: center;
+    max-width: fit-content;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+button{
+    font-size:1.5rem;
+    border-radius: 10px;
+    font-weight: bold;
+    padding:10px;
+    margin-top:15px;
+    color:antiquewhite;
+    background-color: brown;
+    cursor:pointer;
+}
+.checkBtn{
+    margin-top:5px;
+}
+button:hover{
+    background-color:rgba(165, 42, 42, 0.8);
+}
+button:active{
+    background-color: rgba(165, 42, 42, 0.6);
+}
+#h1{
+    color:hsl(240, 47%, 68%)
+}
+#genPass{
+    color:green;
+}
+
